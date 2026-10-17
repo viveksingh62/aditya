@@ -112,7 +112,7 @@ function CommissionForm() {
     const subject = encodeURIComponent(`Commission enquiry — ${values.type}`);
     const body = encodeURIComponent(`Name: ${values.name}\nEmail: ${values.email}\nArtwork type: ${values.type}\nPreferred size: ${values.size || "Not specified"}\nBudget: ${values.budget || "Not specified"}\n\nAbout the drawing:\n${values.description}`);
     setStatus("Your email app should open with a draft. Review it and press send to deliver your enquiry.");
-    window.location.href = `mailto:EDIT_EMAIL_ADDRESS@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `adityasingh421002@gmail.com?subject=${subject}&body=${body}`;
   };
   const fieldError = (name) => errors[name] ? <span className="field-error" id={`${name}-error`}>{errors[name]}</span> : null;
   return <form className="commission-form" onSubmit={submit} noValidate>
