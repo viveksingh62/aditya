@@ -188,6 +188,7 @@ button { color: inherit; }
 .footer-bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 13px 22px; padding-top: 17px; border-top: 1px solid #16161628; color: #6f6c66; font-size: 9px; }
 .footer-bottom a { color: #403a35; text-decoration: underline; text-underline-offset: 3px; }
 .footer-instagram { display: inline-flex; align-items: center; gap: 6px; }
+.footer-support { display: inline-flex; align-items: center; gap: 6px; padding: 7px 9px; border: 1px solid #16161635; background: #eae5db; }
 .creator-credit { display: inline-flex; align-items: center; gap: 5px; font-size: 8px; opacity: .76; }
 .creator-credit > span { color: #b87960; font-size: 11px; }
 @media (min-width: 1900px) { .hero { min-height: 850px; } }

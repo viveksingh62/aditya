@@ -55,6 +55,8 @@ Edit the introduction and artist details in `src/App.jsx`. Replace `EDIT_EMAIL_A
 
 The commission form validates the enquiry and opens a prefilled email draft. It does not send the request itself: visitors must review and send the draft in their email app. No service, endpoint, or email delivery is configured.
 
+The footer's “Support my art” link opens a UPI payment app on supported devices. Its UPI ID is set in the `upi://pay` URL in `src/App.jsx`.
+
 ## Deploy
 
 Run `npm run build` and publish the contents of `dist/` on any static hosting provider that supports Vite-built sites, such as Netlify, Vercel, or GitHub Pages. For a non-root deployment path, configure Vite's `base` option in `vite.config.js` to match the hosted path.
